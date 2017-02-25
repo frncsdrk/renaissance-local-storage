@@ -8,7 +8,7 @@ local storage adapter for renaissance
 
 ## API
 .save({string} key, {string} value)  
-.update({string} key, {string} value)
-.get({string} key)
-.remove({string} key)
-.clear()
+.update({string} key, {string} value)  
+.get({string} key)  
+.remove({string} key)  
+.clear()  
