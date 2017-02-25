@@ -1,0 +1,29 @@
+{
+  "name": "renaissance-local-storage",
+  "version": "0.1.0",
+  "description": "local storage adapter for renaissance",
+  "main": "localStorage.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frncsdrk/renaissance-local-storage.git"
+  },
+  "keywords": [
+    "renaissance",
+    "local",
+    "storage"
+  ],
+  "author": "frncsdrk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frncsdrk/renaissance-local-storage/issues"
+  },
+  "homepage": "https://github.com/frncsdrk/renaissance-local-storage#readme",
+  "dependencies": {
+    "renaissance": "^0.2.1",
+    "requirejs": "^2.3.3",
+    "requirejs-text": "^2.0.15"
+  }
+}
