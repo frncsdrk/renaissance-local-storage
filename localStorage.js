@@ -27,6 +27,7 @@ define(
             };
             this.clear = function() {
                 localStorage.clear();
+                return true;
             };
         }
 
