@@ -39,6 +39,14 @@ Remove `key` and corresponding value from local storage
 
 Clear local storage
 
+## Contributing
+
+See [CONTRIBUTING](https://github.com/frncsdrk/renaissance-local-storage/blob/master/CONTRIBUTING.md)
+
+## Credits
+
+See [CREDITS](https://github.com/frncsdrk/renaissance-local-storage/blob/master/CREDITS)
+
 ## License
 
 [MIT](https://github.com/frncsdrk/renaissance-local-storage/blob/master/LICENSE) (c) 2017 - 2021 frncsdrk and contributors
