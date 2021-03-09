@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "sources": [
+    "src/Adapter.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAuB,CAAA,YAAA;AAAA;AAAA,MAAA,mBAAA;AACjB,EAAA,mBAAA,GAAN,MAAA,mBAAA,CAAA;AACE,IAAA,WAAa,GAAA;AACX;AADW;;AAEb,IAAA,IAAM,CAAA,GAAA,EAAA,KAAA,EAAA;AACF,MAAA,YAAY,CAAZ,OAAA,CAAA,GAAA,EAAA,KAAA;AACA,aAAO,IAAP;AAFE;;AAGN,IAAA,MAAQ,CAAA,GAAA,EAAA,KAAA,EAAA;AACJ,UAAA,CAAO,YAAY,CAAZ,OAAA,CAAP,GAAO,CAAP,EAAA;AACI,eADJ,KACI;;;AAEJ,MAAA,YAAY,CAAZ,OAAA,CAAA,GAAA,EAAA,KAAA;AACA,aAAO,IAAP;AALI;;AAMR,IAAA,GAAK,CAAA,GAAA,EAAA;AACD,aAAO,YAAY,CAAZ,OAAA,CAAA,GAAA,CAAP;AADC;;AAEL,IAAA,MAAQ,CAAA,GAAA,EAAA;AACJ,MAAA,YAAY,CAAZ,UAAA,CAAA,GAAA;AACA,aAAO,IAAP;AAFI;;AAGR,IAAA,KAAO,GAAA;AACH,MAAA,YAAY,CAAZ,KAAA;AACA,aAAO,IAAP;AAFG;;AAjBT,GAAM;AAqBN,EAAA,MAAM,CAAN,OAAA,GAAiB,mBAAjB;CAtBuB,E,IAAA,C,IAAA",
+  "sourcesContent": [
+    "# local storage adapter\nclass LocalStorageAdapter\n  constructor: () ->\n    this\n  save: (key, value) ->\n      localStorage.setItem(key, value)\n      return true\n  update: (key, value) ->\n      unless localStorage.getItem(key)\n          return false\n\n      localStorage.setItem(key, value)\n      return true\n  get: (key) ->\n      return localStorage.getItem(key)\n  remove: (key) ->\n      localStorage.removeItem(key)\n      return true\n  clear: () ->\n      localStorage.clear()\n      return true\n\nmodule.exports = LocalStorageAdapter\n"
+  ],
+  "sourceRoot": ".."
+}
