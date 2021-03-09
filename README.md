@@ -1,5 +1,7 @@
 # renaissance-local-storage
 
+[![Test Status](https://github.com/frncsdrk/renaissance-local-storage/workflows/test/badge.svg?branch)](https://github.com/frncsdrk/renaissance-local-storage/actions)
+
 local storage adapter for renaissance
 
 ## Usage
@@ -10,11 +12,11 @@ local storage adapter for renaissance
 
 ## API
 
-.save({string} key, {string} value)  
-.update({string} key, {string} value)  
-.get({string} key)  
-.remove({string} key)  
-.clear()  
+.save({string} key, {string} value)
+.update({string} key, {string} value)
+.get({string} key)
+.remove({string} key)
+.clear()
 
 ## License
 
