@@ -6,17 +6,38 @@ local storage adapter for renaissance
 
 ## Usage
 
-- include `localStorage.js` in your paths
-- load it in your page component
-- call the include
+```js
+const { r } = require('renaissance')
+const LocalStorageAdapter = require('renaissance-local-storage')
+const adapter = r.registerAdapter('localStorage', LocalStorageAdapter)
+
+const lsa = r.registerAdapter('localStorage', LocalStorage);
+
+lsa.save('foo', 'bar');
+console.log(lsa.get('foo'));
+```
 
 ## API
 
-.save({string} key, {string} value)
-.update({string} key, {string} value)
-.get({string} key)
-.remove({string} key)
-.clear()
+### adapter.save({string} key, {string} value)
+
+Save `value` as `key` in local storage
+
+### adapter.update({string} key, {string} value)
+
+Update `key` in local storage with `value`
+
+### adapter.get({string} key)
+
+Get value from `key` in local storage
+
+### adapter.remove({string} key)
+
+Remove `key` and corresponding value from local storage
+
+### adapter.clear()
+
+Clear local storage
 
 ## License
 
