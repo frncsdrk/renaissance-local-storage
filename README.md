@@ -21,21 +21,31 @@ console.log(lsa.get('foo'));
 
 ### adapter.save({string} key, {string} value)
 
+returns {bool}
+
 Save `value` as `key` in local storage
 
 ### adapter.update({string} key, {string} value)
+
+returns {bool}
 
 Update `key` in local storage with `value`
 
 ### adapter.get({string} key)
 
+returns {string}
+
 Get value from `key` in local storage
 
 ### adapter.remove({string} key)
 
+returns {bool}
+
 Remove `key` and corresponding value from local storage
 
 ### adapter.clear()
+
+returns {bool}
 
 Clear local storage
 
