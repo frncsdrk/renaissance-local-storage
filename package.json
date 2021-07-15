@@ -27,10 +27,10 @@
   },
   "homepage": "https://github.com/frncsdrk/renaissance-local-storage#readme",
   "dependencies": {
+    "@randomgoods/tap-spec": "^5.0.1",
     "coffeescript": "^2.5.1",
     "nyc": "^15.1.0",
-    "renaissance": "^0.6.11",
-    "tap-spec": "^5.0.0",
+    "renaissance": "^0.6.15",
     "tape": "^5.2.2"
   }
 }
