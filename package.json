@@ -1,6 +1,6 @@
 {
   "name": "renaissance-local-storage",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "local storage adapter for renaissance",
   "main": "dist/Adapter.js",
   "scripts": {
