@@ -57,4 +57,4 @@ See [CREDITS](https://github.com/frncsdrk/renaissance-local-storage/blob/master/
 
 ## License
 
-[MIT](https://github.com/frncsdrk/renaissance-local-storage/blob/master/LICENSE) (c) 2017 - 2021 frncsdrk and contributors
+[MIT](https://github.com/frncsdrk/renaissance-local-storage/blob/master/LICENSE) (c) 2017 - 2023 frncsdrk and contributors
